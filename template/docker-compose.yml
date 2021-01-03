@@ -1,0 +1,14 @@
+version: "3"
+services:
+  rpi:
+    build: ./rpi
+    devices:
+      - "/dev/mem:/dev/mem"
+      - "/dev/gpiomem:/dev/gpiomem"
+      - "/dev/i2c-1:/dev/i2c-1"
+      - "/dev/ttyACM0:/dev/ttyACM0"
+    privileged: true
+    environment:
+      TZ: Asia/Tokyo
+    volumes:
+      - ./share:/share_host
