@@ -9,3 +9,5 @@ RUN apt-get install python3-pip -y
 RUN git clone https://github.com/WiringPi/WiringPi.git && cd WiringPi && ./build
 RUN pip3 install pigpio
 RUN pip3 install RPi.GPIO
+
+RUN mkdir /share_host

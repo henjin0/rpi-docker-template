@@ -1,5 +1,5 @@
 # ライセンスについて
-[LICENSE](LICENSE.md) ファイルをご参照ください。
+[LICENSE](./LICENSE) ファイルをご参照ください。
 
 # はじめに
 先にこのあたりを参考にdockerならびにdocker-composeをインストールしておく。
