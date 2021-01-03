@@ -7,6 +7,7 @@
 - [Raspberry Piにdockerとdocker-composeを入れてみた](https://qiita.com/hoshi621/items/7906274326ef3013a73d)
 
 # dockerイメージ、コンテナ作成コマンド
+`cd template`
 `docker-compose up`
 
 # dockerコンテナ実行コマンド
