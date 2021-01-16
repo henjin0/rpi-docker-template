@@ -7,8 +7,12 @@ services:
       - "/dev/gpiomem:/dev/gpiomem"
       - "/dev/i2c-1:/dev/i2c-1"
       - "/dev/ttyACM0:/dev/ttyACM0"
+      - "/dev/vchiq:/dev/vchiq"
     privileged: true
     environment:
-      TZ: Asia/Tokyo
+      - TZ=Asia/Tokyo
+      - LD_LIBRARY_PATH=/opt/vc/lib
     volumes:
       - ./share:/share_host
+      - /opt/vc:/opt/vc
+

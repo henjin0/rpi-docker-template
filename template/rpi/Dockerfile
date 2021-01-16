@@ -11,3 +11,4 @@ RUN pip3 install pigpio
 RUN pip3 install RPi.GPIO
 
 RUN mkdir /share_host
+
