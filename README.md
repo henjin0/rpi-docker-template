@@ -24,3 +24,5 @@
 # dockerイメージ一掃コマンド(参考)
 `docker images -qa | xargs docker rmi`
 
+# カメラ起動チェックコマンド(画像出力)
+`./opt/vc/bin/raspistill -o test.jpg`
