@@ -26,3 +26,6 @@
 
 # カメラ起動チェックコマンド(画像出力)
 `./opt/vc/bin/raspistill -o test.jpg`
+
+# USBデバイス確認コマンド(lsusbが無いため一応書いた)
+`dmesg | grep tty`
