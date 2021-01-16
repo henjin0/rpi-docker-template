@@ -11,6 +11,8 @@
 `SUBSYSTEM=="vchiq",MODE="0666"`
 
 # dockerイメージ、コンテナ作成コマンド
+`cd template`
+
 `docker-compose up`
 
 # dockerコンテナ実行コマンド
